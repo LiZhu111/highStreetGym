@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE users [
+<!ELEMENT users(new_user)>
+<!ELEMENT new-user(user_name, password, email, user_role)>
+<!ELEMENT user_name(#PCDATA)>
+<!ELEMENT password(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+<!ELEMENT user_role(#PCDATA)>
+]>
+  <users>
+    <new_user>
+        <user_name>test4</user_name>
+        <password>123456</password>
+        <email>11@ww.com</email>
+        <user_role>staff</user_role>
+    </new_user>
+    <new_user>
+        <user_name>test5</user_name>
+        <password>123456</password>
+        <email>ab@qq.com </email>
+        <user_role>staff</user_role>
+    </new_user>
+  </users>
+
+
+
+
+
+
+
+
+
+
+
+

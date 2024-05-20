@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trainers [
+<!ELEMENT trainers(new_trainer)>
+<!ELEMENT new-trainer(trainername, image_url)>
+<!ELEMENT trainername(#PCDATA)>
+<!ELEMENT image_url(#PCDATA)>
+]>
+  <trainers xmlns="http://www.w3.org/2001/XMLSchema-instance">
+    <new_trainer>
+        <trainername>David</trainername>
+        <image_url>https://blog.accurofit.com/hubfs/Personal-Trainer-Education.jpg</image_url>
+    </new_trainer>
+  </trainers>
